@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#contenedorPadre{
+    display: flex;
+    padding: 10px 50px;
+}
+
+#SideNav{
+    width: 250px;
+    height: 100%;
+    /* background-color: antiquewhite; */
+    position: fixed;
+}
+
+#Galeria {
+    margin-left: 470px;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.producto {
+    flex: 0 0 calc(50% - 40px); /* Divide en filas de dos, con espacio entre los productos */
+    margin: 20px; /* Añade margen para separar los productos */
+    box-sizing: border-box; /* Incluye el margen en el ancho del elemento */
+}
+
+.producto > *{
+    margin: 5px 20px;
+}
+
+#Galeria img{
+    width: 320px;
+    transition: opacity 0.3s;
+    transition: 0.3s;
+}
+
+.hover:hover{
+    opacity: 0.7;
+}
+
+#NavBottom{
+    display: flex;
+    flex-direction: column;
+}
+
+.abajo{
+    justify-content: flex-end;
+}
+
+.boton-aumentar {
+    background-color:cadetblue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+.boton-disminuir {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer; 
+}

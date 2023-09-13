@@ -1,0 +1,100 @@
+.bloqueBlack{
+  /* margin: 10px; */
+  padding: 15px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  }
+  
+  
+  #comprar{
+  width: 100%;
+  /* border: 1px solid red; */
+  background-color: rgb(248, 248, 248);
+  max-width: 300px;
+  max-height: 600px;
+  position: fixed;
+  margin-left: 70%;
+  }
+  
+  #carritoMenu{
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  
+  .space-btw{
+  justify-content: space-between;
+  }
+  
+  .space-evn{
+  justify-content: space-evenly;
+  }
+  
+  .space-aro{
+  justify-content: space-around;
+  }
+  
+  .center{
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .versionProducto{
+  width: 35%;
+  /* height: 40%; */
+  max-height: 120px;
+  /* margin: 10px; */
+  transition: opacity 0.3s;
+  }
+  
+  #tallas > * {
+  text-decoration: none;
+  }
+  
+  .size-button {
+  border: 1px solid black;
+  width: 39px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  }
+  
+  #eliminar{
+    width: 20px;
+    height: 20px;
+    background: none;
+    background-size: cover;
+    background-image: url('../img/basura.png');
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .size-button.selected {
+  background-color: black;
+  color: white;
+  }
+  
+  #carrito{
+  width: 100%;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+  }
+  
+  #carrito:hover {
+  opacity: 0.7;
+  }
+  
+  .contenedorCarrito{
+    margin: 5px 30px;
+  }
+  
+  p{
+  margin: 0;
+  }

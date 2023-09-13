@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.sizeProducto{
+    width: 70%
+    /* height: 600px; */
+}
+
+.contenedorPadre{
+  display: flex;
+    padding: 10px 50px;
+}
+  
+.contenedor{
+    display: flex;
+    padding: 10px 20px;
+}
+
+.colum{
+  flex-direction: column;
+}
+
+.bloqueBlack{
+  margin: 10px;
+  padding: 15px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.precio{
+  color: red;
+  font-weight: bold;
+}
+
+#comprar{
+  width: 80%;
+}
+
+#comprar > *{
+  background-color: rgb(248, 248, 248);
+}
+
+.space-btw{
+  justify-content: space-between;
+}
+
+.space-evn{
+  justify-content: space-evenly;
+}
+
+.space-aro{
+  justify-content: space-around;
+}
+
+.center{
+  justify-content: center;
+  align-items: center;
+}
+
+.versionProducto{
+  width: 100%;
+  /* margin: 10px; */
+  transition: opacity 0.3s;
+}
+
+.hover:hover{
+  opacity: 0.7;
+}
+
+.heart-button{
+  width: 32px;
+  height: 32px;
+  background: none;
+  background-size: cover;
+  background-image: url('../img/corazon_vacio.png');
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.liked{
+  background-image: url('../img/corazon_lleno.png');
+}
+
+#tallas > * {
+  text-decoration: none;
+}
+
+.size-button {
+  border: 1px solid black;
+  width: 39px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.size-button.selected {
+  background-color: black;
+  color: white;
+}
+
+#carrito{
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#carrito:hover {
+  opacity: 0.7;
+}
+
+p{
+  margin: 0;
+}
+
+#icono_carrito{
+  height: 50px;
+}
